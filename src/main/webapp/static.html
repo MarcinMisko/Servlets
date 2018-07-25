@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Strona statyczna</title>
+    </head>
+    <body>
+        <form action="./dynamic" method="POST">
+            Imie i nazwisko: <input name="imie"/><br/>
+            Opis: <textarea name="opis"></textarea><br/>
+            Plec: <select name="plec"><option name="K">K</option><option name="M">M</option></select><br/>
+            Zgoda na przetwarzanie danych: <input type="checkbox" name="zgoda" /><br/>
+            <input type="hidden" name="ukryte" value="ukryta" />
+            <input type="submit" value="wyslij"/>
+        </form>
+    </body>
+</html>
